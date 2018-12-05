@@ -13,7 +13,7 @@ abstract class BaseFragment: Fragment() {
     }
 
     open fun init(){
-        //初始化一些公共功能,子类也可以复写该方法，实现自己的初始化，嘿嘿
+        //初始化一些公共功能,子类也可以复写该方法，实现自己的初始化，嘿嘿！
     }
 
     abstract fun getLayoutResId(): Int
